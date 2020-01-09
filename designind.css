@@ -1,0 +1,80 @@
+body{
+	background-image: url("bg.jpg");   
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
+
+.recommended{
+   margin-left: 5%;
+
+}
+
+.righter{
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.card{
+  background-color: rgba(0,0,0,0.6);
+  font-style: italic;
+  border-radius: 13%;
+}
+
+.card-text{
+  color: white;
+}
+
+.nav{
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  z-index:1;
+}
+
+
+.nav-link{
+  color: white;
+  margin-top: 22px;
+  font-style: italic;
+ 
+}
+
+.logopic{
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 150px;
+  height: 83px;
+}
+.column {
+  float: left;
+  width: 50%;
+  }
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dole{
+  margin-left: 18%;
+}
+
+.shop-contet{
+  background-color: #00abfb;
+}
+.cart{
+  position: absolute;
+  top: 20px;
+  left: 95%;
+}

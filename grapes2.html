@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+	<title>Fruit Store</title>
+    <link rel="icon" href="smalllogo.png">
+    <meta charset="utf-8">
+    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="fruitsalone.css">
+
+</head>
+<body style=" background-image: url('grapes2bg.jpg'); ">
+
+
+<ul class="nav">
+	<img src="logo.png" class="logopic">
+  <li class="nav-item">
+    <a class="nav-link active" href="index.html">HOME</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="shop.html">SHOP</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="aboutus.html">ABOUT US</a>
+  </li>
+</ul>
+
+
+<br><br><br><br><br>
+
+<div class="row">
+  <div class="column leftclmn" data-aos="fade-right" data-aos-duration="2000">
+    
+    <img src="grapes2.png">
+    <br><br>
+  
+</div>
+  
+  <div class="column infof" data-aos="fade-up" data-aos-duration="2000">
+   <h1>RED GRAPES</h1>
+   <br>
+   <p class="fruitinfo">In regions such as North America and Europe, Musa fruits offered for sale can be divided into "bananas" and "plantains", based on their intended use as food. Thus the banana producer and distributor Chiquita produces publicity material for the American market which says that "a plantain is not a banana".</p>
+   <form  class="forma" action="orders.php" method="POST">
+    <label for="lname" class="fs">Enter your phone number:</label>
+
+    <input type="hidden" name="product" value="grapes2">
+    <input type="phone" id="lname" name="phone" placeholder="We call to confirm orders">
+    <label for="country" class="fs">Select quantity:</label>
+    <select id="country" name="country">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="5">5</option>
+      <option value="10">10</option>
+    </select>
+     
+    <input type="submit" class="fs" value="ADD TO CART">
+    <p class="fs"><a href="cart.php" style="text-decoration: none;">GO TO CART</a></p>
+   
+  
+</form>
+
+</div>
+
+<div class="columnshop rightclmn" data-aos="fade-left" data-aos-duration="2000">
+  <img src="grapes2nf.png" class="nfpic"> 
+</div>
+</div>
+
+<br><br><br>
+<p class="combinations">SCROLL DOWN TO COMBINE RED GRAPES WITH OTHER FRUIT</p>
+
+
+<div class="rowshop">
+  
+  <div class="columnshop" data-aos="flip-left">
+  <a href="apple.html">  <div class="card" style="width: 18rem;">
+  <img src="apple.png" class="card-img-top" alt="..."></a>
+  <div class="card-body">
+    <h5 class="card-title">APPLE</h5>
+       <a href="apple.html" class="btn btn-primary">BUY APPLES</a>
+  </div></a>
+</div>
+  </div>
+  
+
+  <div class="columnshop" data-aos="flip-left">
+  <a href="strawberry.html"><div class="card" style="width: 18rem;">
+  <img src="strawberry.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">STRAWBERRY</h5>
+
+    <a href="strawberry.html" class="btn btn-primary">BUY STRAWBERRIES</a>
+  </div></a>
+</div>
+  </div>
+   
+
+   <div class="columnshop" data-aos="flip-left">
+  <a href="grapefruit.html"> <div class="card" style="width: 18rem;">
+  <img src="grapefruit.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">GRAPEFRUIT</h5>
+    <a href="grapefruit.html" class="btn btn-primary">BUY GRAPEFERUITS</a>
+  </div></a>
+</div>
+  </div>
+   
+
+    <div class="columnshop" data-aos="flip-right">
+  <a href="grapes1.html"><div class="card" style="width: 18rem;">
+  <img src="grapes1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">WHITE GRAPES</h5>
+    <a href="grapes1.html" class="btn btn-primary">BUY GRAPES</a>
+  </div>
+</div></a>
+  </div>
+    
+
+     <div class="columnshop" data-aos="flip-right">
+  <a href="banana.html"><div class="card" style="width: 18rem;">
+  <img src="banana.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">BANANA</h5>
+
+    <a href="banana.html" class="btn btn-primary">BUY BANANAS</a>
+  </div>
+</div></a>
+  </div>
+
+
+  <div class="columnshop" data-aos="flip-right">
+    <a href="watermelon.html"><div class="card" style="width: 18rem;">
+  <img src="watermellon.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">WATERMELON</h5>
+
+    <a href="watermelon.html" class="btn btn-primary">BUY WATERMELONES</a>
+  </div>
+</div></a>
+  </div>
+</div>
+
+<br>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>

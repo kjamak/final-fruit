@@ -1,0 +1,63 @@
+body{
+	background-image: url("bg.jpg");   
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+.nav{
+
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  z-index:1;
+}
+
+
+.nav-link{
+  color: white;
+  margin-top: 22px;
+  font-style: italic;
+ 
+}
+
+.logopic{
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 150px;
+  height: 83px;
+}
+
+.aboutus{
+    background-image: url(wlp.gif);
+    background-size: 100%;
+    
+   border-radius: 4%;
+   width: 100%;
+  margin-top: -1%;
+
+
+}
+
+.cart{
+  position: absolute;
+  top: 20px;
+  left: 95%;
+
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
